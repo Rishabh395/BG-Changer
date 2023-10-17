@@ -1,38 +1,88 @@
-.App {
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+/* .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border: 2px solid black;
+  background-color: black;
   color: white;
+
+} */
+
+/* .App1{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  border: 5px solid green;
+  width: 100%;
+  height: 100vh;
+} */
+
+/* .cont{
+  display: flex;
+  height: 100px;
+  width: 500px;
+  flex-wrap: wrap;
+  border: 5px solid red;
+  flex-direction: row;
+  justify-content: center;
+  
+} */
+
+/* .list-item{
+font-size: 20px;
+list-style-type: none;
+padding: 10px;
+border-radius: 5px;
+margin: 10px;
+border: 5px solid magenta;
+}  */
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+  /* border: 4px solid white; */
+  background-color: black;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.centered-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid rgb(247, 247, 247);
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  /* flex-wrap: wrap; */
+  flex-basis: calc(30%);
+ 
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .center{
+    /* border: 2px solid green; */
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.956);
+    overflow: overlay;
+    /* margin: 10px; */
   }
-  to {
-    transform: rotate(360deg);
+  .button{
+    margin: 10px;
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: blueviolet;
   }
-}
+
+
+  /* If you want to control the number of items in each row or column in a Flexbox container, you can use a combination of the flex-wrap property and the flex-basis property to set the width of the flex items. This allows you to create a specific number of items in a row or column by defining their size. */
